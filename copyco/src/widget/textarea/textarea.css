@@ -1,0 +1,26 @@
+.textMain{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    float: left;
+    height: 50vh; 
+    width: 50%;
+    
+}
+.numbered {
+    background: url(http://i.imgur.com/2cOaJ.png);
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    padding-left: 35px;
+    padding-top: 10px;
+    height: 100%;
+    width: 100%;
+    margin-left: 20px;
+    resize: none;
+    background-color: #212A3E;
+    color: white;
+    font-size: large;
+    
+    border-color:#ccc;
+}

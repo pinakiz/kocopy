@@ -1,0 +1,30 @@
+body{
+    margin : 0;
+    font-family : 'Rokkitt', serif;
+}
+.main{
+    /* overflow: hidden; */
+    background-color: #333;
+    color: black;
+    position: fixed;
+    /* float: left; */
+    display: flexbox;
+    /* top: -10px; */
+    width: 100%;
+    padding-left: 30px;
+    min-height: 10vh;
+}   
+.left p{
+    width: 50%;
+    display: flex;
+    font-size: 30px;
+}
+
+.right{
+    /* right: 100px; */
+    width: 50%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    /* float: right; */
+}

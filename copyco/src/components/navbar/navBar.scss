@@ -1,0 +1,24 @@
+.main{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #12372A;
+        font-family : 'Rokkitt', serif;
+        position: sticky;
+        padding: 10px;
+        top : 0;
+    .left{
+        display: flex;
+        align-items: center;
+        span{
+            font-weight: bold;
+            font-size: 35px;
+            color:#FBFADA;
+        }
+    }
+
+    .right{
+        display: flex;
+    }
+
+}

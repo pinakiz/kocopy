@@ -1,0 +1,59 @@
+.textSubMain{
+    display: inline;
+    // background-color: violet;
+    height: 50vh;
+    width: 98%;
+    float: right;
+    font-size: 20px;
+    align-items: center;
+    .decorInput{
+        outline: none;
+        background-color: inherit;
+        border: none;
+        border-bottom : 1px solid gray;
+        height: 20px;
+    }
+    .smallText{
+        font-size: small;
+    }
+    form{
+        .numbered {
+            background: url(http://i.imgur.com/2cOaJ.png);
+            background-attachment: local;
+            background-repeat: no-repeat;
+            background-size: 30px;
+            padding-left: 35px;
+            padding-top: 10px;
+            height: 40vh;
+            width: 94%;
+            margin-bottom: 30px;
+            display: block;
+            resize: none;
+            background-color: #212A3E;
+            color: white;
+            font-size: large;
+            outline: none;
+            border-color:#ccc;
+
+        }
+        
+        #burnSelect{
+            height:20px; 
+            width:50px; 
+            vertical-align: middle;
+        }
+        #subButton{
+            height: 30px;
+            width: 100px;
+            border-radius: 10px;
+            cursor: pointer;
+            &:hover{
+                // height: 30px;
+                // width: 100px;
+                // border-radius: 10px;
+                background-color: rgb(207, 205, 205);
+            }
+        }
+        
+    }
+}

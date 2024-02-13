@@ -1,0 +1,8 @@
+.homeMain{
+    height: 100vh;
+    background-color: #F5F7F8;
+    
+    span{
+        margin-left: 20px;
+    }
+}
