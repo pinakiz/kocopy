@@ -1,3 +1,4 @@
 node_modules
 ./copyco/node_modules
 ./copyco/node_modules
+./copyco/server/.env 
